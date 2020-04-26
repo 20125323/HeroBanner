@@ -38,23 +38,19 @@
 * js파일 내 다음과 같이 사용
 </br>
   
+`
   let hero_banner = document.querySelector('.hero-banner')
-> 생성한 배너 element를 가져와서 실제 배너를 아래와 같은 옵션 값을 요청해서 만듬.
 
   new HeroBanner(hero_banner, {
-</br>
       url: '요청하고자 하는 url',
-</br>
       count: 4,
-</br>
       autoSlide: true,
-</br>
       autoSlideTime: 3000,
-</br>
       infinity: true
-</br>
   });
-  
+`
+</br>
+
 <a name="options">  
 
 ### 3. 옵션 설명
