@@ -38,7 +38,7 @@
 * js파일 내 다음과 같이 사용
 </br>
   
-'''
+```
   let hero_banner = document.querySelector('.hero-banner')
 
   new HeroBanner(hero_banner, {
@@ -48,7 +48,7 @@
       autoSlideTime: 3000,
       infinity: true
   });
-'''
+```
 </br>
 
 <a name="options">  
