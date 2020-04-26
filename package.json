@@ -1,0 +1,27 @@
+{
+  "name": "herobanner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bundle": "webpack --mode=development",
+    "production": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/20125323/HeroBanner.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/20125323/HeroBanner/issues"
+  },
+  "homepage": "https://github.com/20125323/HeroBanner#readme",
+  "devDependencies": {
+    "css-loader": "^3.5.3",
+    "style-loader": "^1.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
+}

@@ -1,0 +1,115 @@
+.hero-banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hero-banner > .banner-wrapper {
+    position: relative;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.hero-banner > .banner-wrapper > .hero-banner-item {
+    position: relative;
+    float: left;
+}
+
+.hero-banner > .banner-wrapper > .hero-banner-item a,
+.hero-banner > .banner-wrapper > .hero-banner-item img {
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.hero-banner > .nav-wrapper {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    pointer-events: none;
+}
+
+.hero-banner > .nav-wrapper > .nav-dot {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+    text-align: center;
+    pointer-events: all;
+}
+
+.hero-banner > .nav-wrapper > .nav-dot > span {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 12px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: #fff;
+    opacity: .4;
+}
+
+.hero-banner > .nav-wrapper > .nav-dot > .nav-on {
+    opacity: 1;
+}
+
+.hero-banner > .nav-wrapper > .nav-arrow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.hero-banner > .nav-wrapper > .nav-arrow > .nav-arrow-right,
+.hero-banner > .nav-wrapper > .nav-arrow > .nav-arrow-left {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #ffffff;
+    border-radius: 50%;
+    padding: 17px 17px 15px 15px;
+    margin-top: -30px;
+    font-size: 0;
+    visibility: visible;
+    cursor: pointer;
+    pointer-events: all;
+}
+
+.hero-banner > .nav-wrapper > .nav-arrow > .nav-arrow-left {
+    left: 3%;
+    transform: rotate(-135deg);
+}
+
+.hero-banner > .nav-wrapper > .nav-arrow > .nav-arrow-right {
+    right: 3%;
+    transform: rotate(45deg);
+}
+
+.hero-banner > .nav-wrapper > .nav-arrow > .nav-arrow-right::before,
+.hero-banner > .nav-wrapper > .nav-arrow > .nav-arrow-left::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-style: solid;
+    border-width: 3px 3px 0 0;
+    border-color: #ffffff;
+    display: block;
+    cursor: pointer;
+}
+
+.hero-banner > .nav-wrapper > .nav-arrow > .nav-arrow-right:hover::before,
+.hero-banner > .nav-wrapper > .nav-arrow > .nav-arrow-left:hover::before {
+    transform: scale(1.2);
+    transition: 0.3s;
+}
