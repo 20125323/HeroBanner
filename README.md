@@ -72,9 +72,9 @@
 </br>
  * infinity : 마지막 배너에서 다음 배너로 이동 시 처음 배너로 이동할지 여부, true값은 허용, false값은 비허용, default값은 true
 </br>
+</br>
+</br>
  
-</br>
-</br>
 [맨 위로 가기](#top)
 </br>
   
